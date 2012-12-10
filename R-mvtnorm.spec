@@ -10,8 +10,11 @@ License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.9-9992.tar.gz
 Requires:         R-stats 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
+BuildRequires:    R-devel
+BuildRequires:    Rmath-devel
+BuildRequires:    texlive-collection-latex 
 BuildRequires:    R-stats 
+BuildRequires:    pkgconfig(lapack)
 %rename R-cran-mvtnorm
 
 %description
@@ -46,3 +49,19 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
+
+
+%changelog
+* Thu Feb 16 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.9_9992-1
++ Revision: 775052
+- Update to latest version
+
+* Thu Feb 16 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.9_9991-1
++ Revision: 774867
+- Update and rebuild with R2spec
+- Update and rebuild with R2spec
+
+* Tue Dec 29 2009 Jérôme Brenier <incubusss@mandriva.org> 0.9.8-1mdv2010.1
++ Revision: 483319
+- import R-cran-mvtnorm
+
