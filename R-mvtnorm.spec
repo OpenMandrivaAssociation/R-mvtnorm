@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          0.9.9994
-Release:          2
+Version:          0.9.9996
+Release:          1
 Summary:          Multivariate Normal and t Distributions
 Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/mvtnorm_0.9-9994.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/mvtnorm_0.9-9996.tar.gz
 Requires:         R-stats 
 BuildRequires:    R-devel
 BuildRequires:    Rmath-devel
@@ -49,3 +49,4 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
+

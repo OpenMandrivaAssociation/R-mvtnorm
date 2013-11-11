@@ -1,4 +1,5 @@
 removed_sources:
   mvtnorm_0.9-9992.tar.gz: 065985d399f5c2465d3e0c348a12634d6a7826ff
-sources:
   mvtnorm_0.9-9994.tar.gz: 2b9f806d3d9c87d0a5f0d8c77fdf54bf84715c7c
+sources:
+  mvtnorm_0.9-9996.tar.gz: 476fcb34e7b0a9ee70f0a60be19210bdee67bdde
