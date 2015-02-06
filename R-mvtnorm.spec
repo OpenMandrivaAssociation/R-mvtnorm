@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          0.9.99992
-Release:          1
+Release:          2
 Summary:          Multivariate Normal and t Distributions
 
 
