@@ -9,7 +9,7 @@ Summary:          Multivariate Normal and t Distributions
 
 Group:            Sciences/Mathematics
 License:          GPL-2
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/mvtnorm_0.9-99992.tar.gz
 Requires:         R-stats 
 BuildRequires:    R-devel
